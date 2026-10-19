@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal | Enmanuel De los Santos</title>
+    <!-- Enlace al archivo CSS externo según la estructura base -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con título principal y menú de navegación con enlaces internos -->
+    <header>
+        <h1>Enmanuel De los Santos Espinal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#hobbies">Hobbies o Intereses</a></li>
+                <li><a href="#horario">Horario de Estudio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+
+        <!-- Sección 1: Sobre mí (Texto descriptivo, uso de strong, b e imagen) -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <img src="assets/img/perfil.svg" alt="Foto de perfil de Enmanuel De los Santos">
+                <p>
+                    ¡Hola! Mi nombre es <b>Enmanuel De los Santos Espinal</b> (Matrícula: <b>2024-0028</b>). 
+                    Actualmente soy estudiante de la carrera de <strong>Ingeniería en Software</strong> en la 
+                    <b>Universidad Adventista Dominicana (UNAD)</b>.
+                </p>
+                <p>
+                    Me dedico al aprendizaje constante de metodologías de programación en lenguajes como 
+                    <b>C#, C++ y SQL Server</b>. Mi objetivo principal es <strong>desarrollar soluciones de software eficientes</strong> 
+                    aplicando buenas prácticas de estructura, diseño y seguridad informática.
+                </p>
+            </article>
+        </section>
+
+        <!-- Sección 2: Hobbies o Intereses (Lista no ordenada) -->
+        <section id="hobbies">
+            <h2>Hobbies o Intereses</h2>
+            <article>
+                <p>Entre mis principales actividades personales y áreas de interés destacan:</p>
+                <ul>
+                    <li>Desarrollo de algoritmos y programación de aplicaciones.</li>
+                    <li>Entrenamiento de fuerza y acondicionamiento físico en el gimnasio.</li>
+                    <li>Explorar nuevas tecnologías móviles y consolas de videojuegos.</li>
+                    <li>Escuchar música latina, especialmente merengue y bachata.</li>
+                    <li>Formación continua en plataformas educativas en línea.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Sección 3: Tabla sencilla (Horario de estudio) -->
+        <section id="horario">
+            <h2>Horario de Estudio Semanal</h2>
+            <article>
+                <p>Organización semanal dedicada al estudio y práctica de programación:</p>
+                <table>
+                    <tr>
+                        <th>Día</th>
+                        <th>Materia / Área de Estudio</th>
+                        <th>Horario</th>
+                    </tr>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>Introducción al Desarrollo Web (HTML5 y CSS3)</td>
+                        <td>7:00 PM - 9:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Programación Orientada a Objetos (C# y C++)</td>
+                        <td>7:00 PM - 9:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>Bases de Datos y Modelado en SQL Server</td>
+                        <td>6:00 PM - 8:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Práctica de Proyectos y Repositorios en GitHub</td>
+                        <td>3:00 PM - 6:00 PM</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <!-- Sección 4: Contacto (Formulario con Nombre, Correo y Botón de envío) -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <article>
+                <p>Completa el siguiente formulario para enviarme un mensaje directo:</p>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="usuario@ejemplo.com" required>
+
+                    <label for="asunto">Mensaje o consulta:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Escribe brevemente tu mensaje" required>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Pie de página con derechos de autor e información del curso -->
+    <footer>
+        <p>&copy; 2026 Enmanuel De los Santos Espinal | Proyecto: Introducción al Desarrollo Web (UNAD)</p>
+    </footer>
+
+</body>
+</html>
